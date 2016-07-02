@@ -1,0 +1,135 @@
+/*
+	jQuery Mobile Boilerplate
+	css/custom.css
+*/
+.p {
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+	font-size: 10px;
+	font-style: inherit;
+}
+
+html,border {
+	font-family:Verdana,sans-serif;
+	font-size:15px;
+	line-height:1.5
+	}
+	
+html {
+	overflow-x:hidden
+	}
+	
+h1,h2,h3,h4,h5,h6,.w3-slim,.w3-wide {
+	font-family:"Segoe UI",Arial,sans-serif
+	}
+	
+h1 {
+	font-size:36px
+	}
+
+h2 {
+	font-size:30px;
+	font-color: white;
+	}
+	
+h3 {
+	font-size:24px
+	}
+	
+h4 {
+	font-size:20px
+	}
+	
+h5 {
+	font-size:18px
+	}
+	
+h6 {
+	font-size:16px
+	}
+	
+.w3-serif {
+	font-family:"Times New Roman",Times,serif
+	}
+	
+h1,h2,h3,h4,h5,h6 {
+	font-weight:400;
+	margin:10px 0
+	}
+
+.w3-wide {
+	letter-spacing:4px
+	}
+	
+h1 a,h2 a,h3 a,h4 a,h5 a,h6 a {
+	font-weight:inherit
+	}
+	
+hr {
+	height:0;
+	border:0;
+	border-top:1px solid #eee;
+	margin:20px 0
+	}
+	
+img {
+	margin-bottom:-5px
+	}
+	
+a {
+	color:inherit
+	}
+
+table {
+	border-collapse:collapse;
+	border-spacing:0;
+	width:100%;
+	display:table
+	}
+	
+table,th,td {
+	border:none
+	}
+	
+.w3-table-all {
+	border:1px solid #ccc
+	}	
+
+.responsive_images {
+    height: 100%;
+}
+
+@media ( min-width: 35em ) {
+
+	/* wrap on wide viewports once open */
+
+	.ui-panel-page-content-open.ui-panel-page-content-position-left {
+		margin-right: 17em;
+	}
+	.ui-panel-page-content-open.ui-panel-page-content-position-right {
+		margin-left: 17em;
+	}
+	.ui-panel-page-content-open {
+		width: auto;
+	}
+
+	/* disable "dismiss" on wide viewports */
+	.ui-panel-dismiss {
+		display: none;
+	}
+
+	/* same as the above but for panels with display mode "push" only */
+
+	.ui-panel-page-content-open.ui-panel-page-content-position-left.ui-panel-page-content-display-push {
+		margin-right: 17em;
+	}
+	.ui-panel-page-content-open.ui-panel-page-content-position-right.ui-panel-page-content-display-push {
+		margin-left: 17em;
+	}
+	.ui-panel-page-content-open.ui-panel-page-content-display-push {
+		width: auto;
+	}
+
+	.ui-panel-dismiss-display-push {
+		display: none;
+	}
+}
